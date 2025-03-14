@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.container {
+    width: 100vw;
+    height: fit-content;
+    background-image: radial-gradient(circle at top right, rgb(255, 239, 226), transparent 70%), radial-gradient(circle at top left, rgb(249, 239, 252), transparent 70%);
+}
+
+.header {
+    padding: 0px 50px 0px 50px;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: space-around;
+}
+
+.header-links button {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(98, 93, 245);
+    color: white;
+    border: 1px solid transparent;
+    font-size: 0.9em;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.header-links p {
+    cursor: pointer;
+}
+
+.header-links p:hover {
+    color: rgb(88, 84, 80);
+}
+
+.first-box {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.first-box-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+
+}
+
+.first-box-heading h1 {
+    font-size: 2.5em;
+    text-align: center;
+    min-width: 300px;
+}
+
+.first-box-heading p {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-align: center;
+    min-width: 300px;
+}
+
+.first-box-heading span {
+    background-color: rgb(199, 198, 249);
+}
+
+.first-box-content {
+    width:60%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px 0px 0px;
+    min-width: 350px;
+    
+    
+}
+
+.content1-boxes {
+    margin: 0px 30px 0px 0px;
+    width: 35%;
+    height: fit-content;
+    border: 2px solid rgb(98, 93, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px;
+    border-radius: 30px;
+    min-width: 350px;
+}
+
+.content-1>img{
+   width: 75px;
+}
+#chrome{
+    background-color: rgb(199, 198, 249);
+    width: 60px;
+    padding: 10px;
+    border-radius: 40%;
+}
+.content-1 h1{
+    font-size: 1.5em;
+    margin: 30px 0px 30px 0px;
+}
+.content-1 p{
+    margin: 0px 0px 30px 0px;
+    color: rgb(123, 123, 138);
+    font-size: 0.9em;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(156, 152, 152, 0.5);
+    margin: 30px 0px 30px 0px;
+}
+.tick>img{
+    width: 13px;
+    margin: 0px 15px 0px 0px;
+}
+.content-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.content-1 button{
+    height: 40px;
+    width: 80%;
+    background-color: rgb(98, 93, 245);
+    color: white;
+    border: 1px solid transparent;
+    font-size: 0.9em;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.tick{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 15px 0px;
+}
+.tick p{
+    color: rgb(114, 109, 138);
+    font-size: 0.9em;
+}
+.content-2{
+    align-self: flex-start;
+}
+#download{
+    background-color: rgb(242, 241, 244);
+    color: rgb(154, 154, 169);
+}
+.second-box{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.footer img{
+    width: 18px;
+    margin: 0px 10px 0px 0px;
+}
+.footer span{
+    text-decoration: underline;
+    color: rgb(110, 106, 246);
+}
+.footer p{
+    font-size: 0.9em;
+}
+.footer p span{
+    cursor: pointer;
+}
+@media screen and (min-width:200px) and (max-width:768px) {
+    .header-links p {
+        display: none;
+    }
+    .first-box-heading h1{
+        font-size: 2em;
+    }
+    .first-box-heading p{
+        font-size: 1em;
+    }
+    .content1-boxes{
+        margin: 0px 0px 50px 0px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1166px) {
+    .header-links {
+        width: 60%;
+    }
+    .content1-boxes{
+        margin: 0px 0px 50px 0px;
+    }
+
+}

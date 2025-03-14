@@ -1,0 +1,40 @@
+.button-anime-1:hover{
+    transform:  translateY(-2px);
+    transition: transform 0.2s;
+    box-shadow: 0px 0px 20px  rgb(86, 90, 221, 0.5), 0px 0px 20px rgb(86, 90, 221, 0.5);
+}
+.button-anime-1:not(:hover){
+    transition: 0.2s;
+}
+.button-anime-2:hover{
+    transform: translateY(-2px);
+    transition: transform 0.2s;
+    box-shadow: 0px 0px 20px  rgb(86, 90, 221, 0.5), 0px 0px 20px rgb(86, 90, 221, 0.5);
+}
+.button-anime-2:not(:hover){
+    transition: 0.2s;
+}
+.useCase-animation:hover{
+    transform: scale(103%);
+    transition: transform 0.2s;
+    box-shadow: 0px 0px 20px rgb(129, 126, 126, 0.3), 0px 0px 20px rgb(112, 111, 111, 0.3);
+}
+.useCase-animation:not(:hover){
+    transition: 0.2s;
+}
+.newsroom-animations:hover{
+    transform: scale(103%);
+    transition: transform 0.2s;
+    box-shadow: 0px 0px 20px rgb(129, 126, 126, 0.3), 0px 0px 20px rgb(112, 111, 111, 0.3);
+    background-color: white;
+}
+.newsroom-animations:not(:hover){
+    transition: 0.2s;
+}
+.customer-scale:hover{
+    transform: scale(102%);
+    transition: 0.2s;
+}
+.customer-scale:not(:hover){
+    transition: 0.2s;
+}
